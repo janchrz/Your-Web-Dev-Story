@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edfe15e0f88eb4a43a3565753407a5b3, type: 3}
+  m_Name: QUEST_Tax_Season
+  m_EditorClassIdentifier: 
+  m_title: Tax Season
+  m_description: Yosbar the blacksmith didn't pay his taxes, the king needs you to
+    use all possible means to make him pay.
+  m_recommendedLevel: 1
+  m_repeatable: 0
+  m_tasks:
+  - {fileID: 11400000, guid: 15f3843336e9e33409decedff43d306b, type: 2}
+  m_toExecuteOnQuestCompletion:
+  - action: {fileID: 11400000, guid: 92f2f9afce6906e47adfc4f986602d15, type: 2}
+    args:
+    - type: 5
+      int_value: 0
+      bool_value: 0
+      float_value: 0
+      string_value: 
+      object_value: {fileID: 11400000, guid: b9aff18cf205896438a59e1ab7d29ff8, type: 2}
+    - type: 1
+      int_value: -1
+      bool_value: 0
+      float_value: 0
+      string_value: 
+      object_value: {fileID: 11400000, guid: b9aff18cf205896438a59e1ab7d29ff8, type: 2}
+  - action: {fileID: 11400000, guid: 21362312c8aef044aa2fb0a30b4feefe, type: 2}
+    args:
+    - type: 1
+      int_value: 100
+      bool_value: 0
+      float_value: 0
+      string_value: 
+      object_value: {fileID: 0}
+  - action: {fileID: 11400000, guid: f043928268919544e82c2f8df00d2af7, type: 2}
+    args:
+    - type: 1
+      int_value: 200
+      bool_value: 0
+      float_value: 0
+      string_value: 
+      object_value: {fileID: 11400000, guid: b9aff18cf205896438a59e1ab7d29ff8, type: 2}
+  m_offeredBy: {fileID: 11400000, guid: 0fc16f32e56292842a1de5ad72a1287a, type: 2}
+  m_reportTo: {fileID: 11400000, guid: 0fc16f32e56292842a1de5ad72a1287a, type: 2}
+  m_questOfferDialogue: {fileID: 11400000, guid: decece90443c9aa4282cfd0febde5a48, type: 2}
+  m_questHintDialogue: {fileID: 11400000, guid: dab68f0b8dab6ed4eaa097e04ff0c6a9, type: 2}
+  m_questCompletedDialogue: {fileID: 11400000, guid: 8c27bc22f3f9d654c804210b8ee5eca7, type: 2}

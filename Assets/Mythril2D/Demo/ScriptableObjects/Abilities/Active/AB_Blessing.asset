@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c23aef803a8aa1a4abe49cab03314ac9, type: 3}
+  m_Name: AB_Blessing
+  m_EditorClassIdentifier: 
+  m_icon: {fileID: -664805317, guid: 75f26bff82aa90b4e8ac81457a1224bf, type: 3}
+  m_displayName: Blessing
+  m_description: Slightly heals the caster
+  m_prefab: {fileID: 5637492867466869810, guid: da6d7810d900aad439350f0bdbfe42a8, type: 3}
+  m_manaCost: 1
+  m_canInterupt: 1
+  m_disabledActionsWhileCasting: 6
+  m_fireAudio: {fileID: 11400000, guid: 7cdda1ebc7da64a42995697817571146, type: 2}
+  m_healAmount: 2

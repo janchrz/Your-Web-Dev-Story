@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09e17463e893d4fc49015a09b61e97ad, type: 3}
+  m_Name: DIAL_The_Stolen_Heirloom_Offer
+  m_EditorClassIdentifier: 
+  lines:
+  - You seem really brave, I beg you to help me.
+  - My mother had willed me a necklace before she passed away.
+  - But a horde of evil skeletons stole it from her lifeless body. I need to get
+    it back from them.
+  - Can you help me save my mother's legacy?
+  options:
+  - name: I will!
+    sequence: {fileID: 11400000, guid: 94df3924659fa88428db599e01765b73, type: 2}
+    message:
+      type: 2
+      customMessage: 
+  - name: No sorry
+    sequence: {fileID: 11400000, guid: 823dbff665f38c243a5b06499e8715a9, type: 2}
+    message:
+      type: 3
+      customMessage: 

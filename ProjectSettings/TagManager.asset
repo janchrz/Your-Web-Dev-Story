@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Collision Default
+  - Water
+  - UI
+  - Interaction
+  - Hitbox
+  - Projectile
+  - Collision A
+  - Collision B
+  - Collision C
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 419497587
+    locked: 0
+  - name: A
+    uniqueID: 2112435969
+    locked: 0
+  - name: B
+    uniqueID: 1767517263
+    locked: 0
+  - name: C
+    uniqueID: 2847976193
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 3581332203
+    locked: 0
+  - name: sample
+    uniqueID: 2820812225
+    locked: 0

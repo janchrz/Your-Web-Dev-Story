@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce1e0d9b1096041349779168632f7939, type: 3}
+  m_Name: CS_Wizard
+  m_EditorClassIdentifier: 
+  m_alignment: 0
+  m_displayName: Wizard
+  m_abilitiesPerLevel:
+    m_keys:
+    - {fileID: 11400000, guid: ad16c9de90a854d52a520b25daa92915, type: 2}
+    - {fileID: 11400000, guid: ff56951987085044c8054f9957fd01c4, type: 2}
+    - {fileID: 11400000, guid: 722f0c9823cf545ce8e44925ed60ab80, type: 2}
+    - {fileID: 11400000, guid: a09b0a2616e39914a822651da89c282f, type: 2}
+    m_values: 01000000010000000200000003000000
+  m_hitAudio: {fileID: 11400000, guid: a4e5377a4fc466b41889cf9f0874ca00, type: 2}
+  m_deathAudio: {fileID: 11400000, guid: fd5c086ec9cf4fc4d9e15ce421be7aff, type: 2}
+  baseStats:
+    m_values: 0500000005000000050000000500000005000000050000000500000005000000
+  pointsPerLevel: 3
+  experience:
+    m_initialValue: 100
+    m_evolutionProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 2
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 2.4712863
+        outSlope: 2.4712863
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.04771787
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_evolutionScale: 50

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52ad798bc7dde924387a0f08a7844868, type: 3}
+  m_Name: AB_Fireball
+  m_EditorClassIdentifier: 
+  m_icon: {fileID: -532101946, guid: 75f26bff82aa90b4e8ac81457a1224bf, type: 3}
+  m_displayName: Fireball
+  m_description: Cast a powerful fireball
+  m_prefab: {fileID: 7808537531911090434, guid: 137152ad9dae47047ae77d1d9577993b, type: 3}
+  m_manaCost: 1
+  m_canInterupt: 1
+  m_disabledActionsWhileCasting: -1
+  m_fireAudio: {fileID: 11400000, guid: 5cb3db60a8e82af43a07be4f6044e2ad, type: 2}
+  m_damageDescriptor:
+    flatDamages: 0
+    scaledDamages: 0
+    scale: 1
+    type: 2
+  m_projectileSpeed: 10
+  m_projectileCount: 1
+  m_spread: 0

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6137dc7822bc8848b36ef8f32f4b997, type: 3}
+  m_Name: TASK_Acquire_1_Tax_Payment
+  m_EditorClassIdentifier: 
+  m_title: Acquire {0} ({1}/{2})
+  m_requirePreviousTasksCompletion: 0
+  item: {fileID: 11400000, guid: b9aff18cf205896438a59e1ab7d29ff8, type: 2}
+  amountToCollect: 1

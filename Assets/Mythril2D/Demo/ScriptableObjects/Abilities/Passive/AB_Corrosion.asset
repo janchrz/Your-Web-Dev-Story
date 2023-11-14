@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6fcb8d316461e04791fc55e30aba88c, type: 3}
+  m_Name: AB_Corrosion
+  m_EditorClassIdentifier: 
+  m_icon: {fileID: 0}
+  m_displayName: Corrosion
+  m_description: Burns anything on contact
+  m_prefab: {fileID: 5434529868547144446, guid: 76944e717ca96af4fa1ab458037d4425, type: 3}
+  m_manaCost: 0
+  m_canInterupt: 0
+  m_disabledActionsWhileCasting: 0
+  m_damageDescriptor:
+    flatDamages: 0
+    scaledDamages: 0
+    scale: 1
+    type: 2

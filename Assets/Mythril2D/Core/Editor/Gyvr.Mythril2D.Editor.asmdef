@@ -1,0 +1,19 @@
+{
+    "name": "Gyvr.Mythril2D.Editor",
+    "rootNamespace": "",
+    "references": [
+        "Gyvr.Mythril2D",
+        "Unity.Mathematics"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

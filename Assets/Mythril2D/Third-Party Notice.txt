@@ -1,0 +1,28 @@
+This asset contains third-party resources that are subject to separate licenses.
+Please review the licenses and terms of use provided by the respective third parties before using or distributing this asset.
+By using this asset, you agree to comply with all applicable third-party licenses and terms of use.
+ 
+Demo/Sprites/ThirdParty/analogStudios_
+
+    Author: https://analogstudios.itch.io
+    License: CC0 (https://creativecommons.org/publicdomain/zero/1.0/)
+
+Demo/Sprites/ThirdParty/MatheusFrantz
+
+    Author: https://msfrantz.itch.io
+    License: Custom (c.f. LICENSE.md)
+
+Demo/Sprites/ThirdParty/PaperHatLizard
+
+    Author: https://paperhatlizard.itch.io
+    License: Custom (c.f. LICENSE.md)
+
+Demo/Audio/ThirdParty/SubspaceAudio
+
+    Author: https://opengameart.org/users/subspaceaudio
+    License: CC0 (https://creativecommons.org/publicdomain/zero/1.0/)
+
+Demo/Audio/ThirdParty/pmiller
+
+    Author: https://opengameart.org/users/pmiller
+    License: CC0 (https://creativecommons.org/publicdomain/zero/1.0/)

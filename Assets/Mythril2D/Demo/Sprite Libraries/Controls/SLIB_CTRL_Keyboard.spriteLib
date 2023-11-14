@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: Interact
+    m_Hash: 411288252
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Idle
+      m_Hash: 1008081451
+      m_Sprite: {fileID: -846418254, guid: 4113596ae75d746b4a3729da2aa23630, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1977668745, guid: ed64db290748c0944b438d5c6cca9c77, type: 3}
+    - m_Name: Pressed
+      m_Hash: 350847462
+      m_Sprite: {fileID: 441915161, guid: 4113596ae75d746b4a3729da2aa23630, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 686847792, guid: ed64db290748c0944b438d5c6cca9c77, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 2
+  - m_Name: FireAbility1
+    m_Hash: 461900909
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Idle
+      m_Hash: 1008081451
+      m_Sprite: {fileID: -374959230, guid: 4113596ae75d746b4a3729da2aa23630, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1368624713, guid: ed64db290748c0944b438d5c6cca9c77, type: 3}
+    - m_Name: Pressed
+      m_Hash: 350847462
+      m_Sprite: {fileID: -1357779179, guid: 4113596ae75d746b4a3729da2aa23630, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1584617663, guid: ed64db290748c0944b438d5c6cca9c77, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 2
+  - m_Name: FireAbility2
+    m_Hash: 42032599
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Idle
+      m_Hash: 1008081451
+      m_Sprite: {fileID: -1570256092, guid: 4113596ae75d746b4a3729da2aa23630, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1294132478, guid: ed64db290748c0944b438d5c6cca9c77, type: 3}
+    - m_Name: Pressed
+      m_Hash: 350847462
+      m_Sprite: {fileID: 858891773, guid: 4113596ae75d746b4a3729da2aa23630, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 277962155, guid: ed64db290748c0944b438d5c6cca9c77, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 2
+  - m_Name: FireAbility3
+    m_Hash: 898002241
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Idle
+      m_Hash: 1008081451
+      m_Sprite: {fileID: 1109082186, guid: 4113596ae75d746b4a3729da2aa23630, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -508752606, guid: ed64db290748c0944b438d5c6cca9c77, type: 3}
+    - m_Name: Pressed
+      m_Hash: 350847462
+      m_Sprite: {fileID: 1049171713, guid: 4113596ae75d746b4a3729da2aa23630, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 2026403938, guid: ed64db290748c0944b438d5c6cca9c77, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 2
+  - m_Name: OpenGameMenu
+    m_Hash: 859638706
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Idle
+      m_Hash: 1008081451
+      m_Sprite: {fileID: 1499297249, guid: 4113596ae75d746b4a3729da2aa23630, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1989735388, guid: ed64db290748c0944b438d5c6cca9c77, type: 3}
+    - m_Name: Pressed
+      m_Hash: 350847462
+      m_Sprite: {fileID: 1499268031, guid: 4113596ae75d746b4a3729da2aa23630, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 772368217, guid: ed64db290748c0944b438d5c6cca9c77, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 2
+  - m_Name: Submit
+    m_Hash: 949859957
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Idle
+      m_Hash: 1008081451
+      m_Sprite: {fileID: -846418254, guid: 4113596ae75d746b4a3729da2aa23630, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1977668745, guid: ed64db290748c0944b438d5c6cca9c77, type: 3}
+    - m_Name: Pressed
+      m_Hash: 350847462
+      m_Sprite: {fileID: 441915161, guid: 4113596ae75d746b4a3729da2aa23630, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 686847792, guid: ed64db290748c0944b438d5c6cca9c77, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 2
+  - m_Name: Cancel
+    m_Hash: 297451588
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Idle
+      m_Hash: 1008081451
+      m_Sprite: {fileID: 1109082186, guid: 4113596ae75d746b4a3729da2aa23630, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: -1989735388, guid: ed64db290748c0944b438d5c6cca9c77, type: 3}
+    - m_Name: Pressed
+      m_Hash: 350847462
+      m_Sprite: {fileID: 1049171713, guid: 4113596ae75d746b4a3729da2aa23630, type: 3}
+      m_FromMain: 1
+      m_SpriteOverride: {fileID: 772368217, guid: ed64db290748c0944b438d5c6cca9c77, type: 3}
+    m_FromMain: 1
+    m_EntryOverrideCount: 2
+  m_PrimaryLibraryGUID: d94e4c183d468470e97ffccae2b0884d

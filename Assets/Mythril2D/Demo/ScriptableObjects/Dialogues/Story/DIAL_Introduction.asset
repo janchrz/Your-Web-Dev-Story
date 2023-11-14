@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09e17463e893d4fc49015a09b61e97ad, type: 3}
+  m_Name: DIAL_Introduction
+  m_EditorClassIdentifier: 
+  lines:
+  - '*ughh, my head*'
+  - where am I?
+  - I should get out of here...
+  options: []
+  toExecuteOnStart: []
+  toExecuteOnCompletion:
+  - action: {fileID: 11400000, guid: 357186adf88f47441beed107c9dbbe69, type: 2}
+    args:
+    - type: 4
+      int_value: 0
+      bool_value: 0
+      float_value: 0
+      string_value: introduction
+      object_value: {fileID: 0}
+    - type: 2
+      int_value: 0
+      bool_value: 1
+      float_value: 0
+      string_value: 
+      object_value: {fileID: 0}

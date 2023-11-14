@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09e17463e893d4fc49015a09b61e97ad, type: 3}
+  m_Name: DIAL_Tax_Season_Yosbar_2_B_Cut_Beard
+  m_EditorClassIdentifier: 
+  lines:
+  - What are you doing??? Are you trying to cut my beard??? That's absurd! Please
+    don't, it took meyears to grow!
+  options:
+  - name: 
+    sequence: {fileID: 11400000, guid: 4fa56d5fafa34c94aa412797e316d731, type: 2}
+    message:
+      type: 0
+      customMessage: 

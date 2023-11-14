@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb2efaf2b905a94ebfa0802d9effd25, type: 3}
+  m_Name: SHOP_Blacksmith
+  m_EditorClassIdentifier: 
+  items:
+  - {fileID: 11400000, guid: 48cb8c471a4ea2b4cb2fd0336ba4446a, type: 2}
+  - {fileID: 11400000, guid: 1b8e354e716a80141b3205657da898cf, type: 2}
+  - {fileID: 11400000, guid: c5f330fc019a1bd4d94da6a2d4b9bab2, type: 2}
+  - {fileID: 11400000, guid: 215eb18885fedad4580922bd00f12608, type: 2}
+  - {fileID: 11400000, guid: 5e4eb488c6d289949bba2e98f46c2cc3, type: 2}
+  sellingPriceMultiplier: 0.5
+  buyingPriceMultiplier: 1

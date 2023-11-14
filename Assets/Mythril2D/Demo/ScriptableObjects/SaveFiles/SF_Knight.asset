@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d9fb789ded58014f8e70d4e3fbe022a, type: 3}
+  m_Name: SF_Knight
+  m_EditorClassIdentifier: 
+  m_content:
+    header: 
+    map: Abandoned_House
+    journal:
+      availableQuests:
+      - {fileID: 11400000, guid: a90b24f120039c54eb3e50f08235f396, type: 2}
+      - {fileID: 11400000, guid: 7706cd09097d17f4eb5881e883a70a11, type: 2}
+      activeQuests: []
+      fullfilledQuests: []
+      completedQuests: []
+    inventory:
+      money: 100
+      items:
+        m_keys:
+        - {fileID: 11400000, guid: 7716cee2da79443a88980e270d01588b, type: 2}
+        - {fileID: 11400000, guid: 3a76970755e80814d9d79a3f02caba3c, type: 2}
+        m_values: 0100000001000000
+    gameFlags:
+      flags: []
+    player:
+      prefab: {fileID: 2101494329101190425, guid: c73f1c9cd8958dc44969ce40c1398d44, type: 3}
+      usedPoints: 0
+      experience: 0
+      missingCurrentStats:
+        m_values: 0000000000000000000000000000000000000000000000000000000000000000
+      customStats:
+        m_values: 0000000000000000000000000000000000000000000000000000000000000000
+      equipments: []
+      equipedAbilities:
+      - {fileID: 11400000, guid: ad16c9de90a854d52a520b25daa92915, type: 2}
+      - {fileID: 11400000, guid: d451884129ab461459ca4a2fad3148b6, type: 2}
+      position: {x: 1.5, y: 3.5, z: 0}
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d04373d921d9447f0ad18e231a3dde5f, type: 3}
+  m_Name: TASK_Kill_1_Necromancer
+  m_EditorClassIdentifier: 
+  m_title: Kill {0} ({1}/{2})
+  m_requirePreviousTasksCompletion: 0
+  monster: {fileID: 11400000, guid: 07a3bfda2dc4dd94690caa30754d4c8a, type: 2}
+  monstersToKill: 1

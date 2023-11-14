@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09e17463e893d4fc49015a09b61e97ad, type: 3}
+  m_Name: DIAL_Tax_Season_Yosbar_1_Start
+  m_EditorClassIdentifier: 
+  lines:
+  - The king is asking for tax money? I don't have any money, I didn't sell anything
+    this year, that's ridiculous!
+  options:
+  - name: Cut his beard
+    sequence: {fileID: 11400000, guid: a265722d17b70f24f846e199a53e2451, type: 2}
+    message:
+      type: 0
+      customMessage: 
+  - name: Burn his beard
+    sequence: {fileID: 11400000, guid: 13e7a38c58042184ca6f9c7780ed9775, type: 2}
+    message:
+      type: 0
+      customMessage: 
+  - name: Spare the guy
+    sequence: {fileID: 11400000, guid: af04556a9b2192645ad180e00c0cf57b, type: 2}
+    message:
+      type: 0
+      customMessage: 
+  toExecuteOnCompletion: []

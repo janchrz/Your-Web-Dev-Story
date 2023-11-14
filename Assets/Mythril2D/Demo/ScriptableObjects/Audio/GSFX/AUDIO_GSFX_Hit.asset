@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 224282351dec5aa48bd0d1c7f7eb1c8f, type: 3}
+  m_Name: AUDIO_GSFX_Hit
+  m_EditorClassIdentifier: 
+  m_audioClips:
+  - {fileID: 8300000, guid: 6ee6265c9d43ac14c84012ecf1118508, type: 3}
+  - {fileID: 8300000, guid: 447a12c9da4a4d543ae488b816f3a195, type: 3}
+  - {fileID: 8300000, guid: 902d0aa98a8bae845adfa7c050e67c8e, type: 3}
+  m_targetChannel: 3
+  m_resolvingAlgorithm: 0

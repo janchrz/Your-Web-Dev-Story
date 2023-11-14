@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09e17463e893d4fc49015a09b61e97ad, type: 3}
+  m_Name: DIAL_Tax_Season_Offer
+  m_EditorClassIdentifier: 
+  lines:
+  - Thanks again for getting rid of this necromancer! Now that this threat is gone,
+    I can focus on building our town's wealth again.
+  - Speaking of, Yosbar the blacksmith still hasn't paid his taxes yet, I could use
+    a little convincing from a strong character like you.
+  - Would you mind visiting Yosbar and get this money from him? Don't worry, he is
+    well off.
+  options:
+  - name: For sure!
+    sequence: {fileID: 11400000, guid: 1d62427ff9fa04d4e93c383fa0c58019, type: 2}
+    message:
+      type: 2
+      customMessage: 
+  - name: Ugh, no!
+    sequence: {fileID: 11400000, guid: 7649aae570ba03649b3b81a93cd380c1, type: 2}
+    message:
+      type: 3
+      customMessage: 
+  toExecuteOnCompletion: []
